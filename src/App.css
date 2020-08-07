@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+.App h1 {
+    color: #0ccac4;
+    font-family: "Audiowide", sans-serif;
+    font-size: 4rem;
+}
