@@ -12,6 +12,7 @@ export const searchRobots = (state=initialState, action={}) => {
             break;
     
         default:
+            return state
             break;
     }
 }
