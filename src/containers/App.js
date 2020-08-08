@@ -15,7 +15,6 @@ class App extends Component {
     }
 
     componentDidMount() {
-        console.log(this.props.store.getState())
         fetch(`http://jsonplaceholder.typicode.com/users`)
             .then((response) => response.json())
             .then((users) => this.setState({ robots: users }));
